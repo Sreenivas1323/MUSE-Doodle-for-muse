@@ -1,24 +1,19 @@
 {
-  "name": "payment_webapp",
+  "name": "tempo",
   "version": "1.0.0",
-  "description": "the app which makes sharing of credentials, easier",
-  "main": "index.html",
-  "scripts": {
-    "test": "Helloworld",
-    "lite": "lite-server",
-    "start": "npm run lite"
+  "description": "Thanks for downloading this template!",
+  "main": "index.js",
+  "dependencies": {
+    "lite": "^4.0.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+"
-  },
-  "author": "Sai Sreenivas",
-  "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
   "devDependencies": {
     "lite-server": "^2.5.4"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "lite": "lite-server",
+      "start": "npm run lite"
+  },
+  "author": "",
+  "license": "ISC"
 }
